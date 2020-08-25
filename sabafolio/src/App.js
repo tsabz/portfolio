@@ -7,6 +7,7 @@ import './App.css';
 
 import Footer from './components/footer.js'
 import HomePage from './pages/home.js'
+import ProjectPage from './pages/projects.js'
 // import NavbarBrand from 'react-bootstrap/esm/NavbarBrand';
 
 
@@ -49,11 +50,8 @@ class App extends React.Component {
             <Route path="/" exact render={() => 
                 <HomePage 
                     title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text}/>} />
-            <Route path="/" exact render={() => 
-                <HomePage 
-                    title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text}/>} />
-            <Route path="/" exact render={() => 
-                <HomePage 
+            <Route path="/projects" render={() => 
+                <ProjectPage 
                     title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text}/>} />
             <Footer />
             </Container>
