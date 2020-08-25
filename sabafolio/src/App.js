@@ -36,11 +36,11 @@ class App extends React.Component {
       <Router>
           <Container className="p-0" fluid={true}>
             
-            <Navbar className="border-bottom">
+            <Navbar className="border-bottom" bg="transparent" expand="lg">
               <Navbar.Brand>Tonia Saba</Navbar.Brand>
               <Navbar.Toggle aria-controls="navbar-toggle" />
               <Navbar.Collapse id="navbar-toggle">
-                <Nav>
+                <Nav className="ml-auto">
                   <Link className="nav-link" to="/">Home</Link>
                   <Link className="nav-link" to="/projects">Projects</Link>
                   <Link className="nav-link" to="/resume">Resume</Link>
