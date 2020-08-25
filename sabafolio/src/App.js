@@ -6,6 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 import './App.css';
 
 import Footer from './components/footer.js'
+import HomePage from './pages/home.js'
 // import NavbarBrand from 'react-bootstrap/esm/NavbarBrand';
 
 
@@ -16,8 +17,7 @@ class App extends React.Component {
       title: 'Tonia Saba',
       headerLinks: [
         { title: 'home', path: '/'},
-        { title: 'projects', path: '/projects'},
-        { title: 'resume', path: '/resume'}
+        { title: 'projects', path: '/projects'}
       ],
       home: {
         title: 'Blah',
@@ -27,9 +27,6 @@ class App extends React.Component {
       projects : {
         title: 'projects'
       },
-      resume: {
-        title: 'resume'
-      }
     }
   }
 
@@ -45,10 +42,19 @@ class App extends React.Component {
                 <Nav className="ml-auto">
                   <Link className="nav-link" to="/">Home</Link>
                   <Link className="nav-link" to="/projects">Projects</Link>
-                  <Link className="nav-link" to="/resume">Resume</Link>
+                  <a className="nav-link" href="https://docs.google.com/document/d/1yrCAZunRJWwRmdi-le2rSYupCvo4D5cnQbg2cJnQyFQ/export?format=pdf">Resume</a>
                 </Nav>
               </Navbar.Collapse>
             </Navbar>
+            <Route path="/" exact render={() => 
+                <HomePage 
+                    title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text}/>} />
+            <Route path="/" exact render={() => 
+                <HomePage 
+                    title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text}/>} />
+            <Route path="/" exact render={() => 
+                <HomePage 
+                    title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text}/>} />
             <Footer />
             </Container>
         
