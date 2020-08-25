@@ -13,18 +13,17 @@ function App() {
 
       <div className="App">
 
-          <Route exact path= '/' component={Landing} />
-          <Route exact path= '/projects' component={Projects} />
-          <Route exact path= '/articles' component={Articles} />
-          <Route exact path= '/about' component={About} />
-
-          <div className="navigation">
+      <div className="navigation">
               <div className="navigation-sub">
                   <Link to="/" className="item">Home</Link>
                   <Link to="/projects" className="item">Projects</Link>
                   <Link to="/articles" className="item">Articles</Link>
                   <Link to="/about" className="item">About</Link>
               </div>
+          <Route exact path= '/' component={Landing} />
+          <Route exact path= '/projects' component={Projects} />
+          <Route exact path= '/articles' component={Articles} />
+          <Route exact path= '/about' component={About} />
           </div>
       </div>
     </BrowserRouter>
