@@ -36,6 +36,14 @@ class Carousel extends React.Component {
                     imgSrc: Tonia, 
                     link: 'https://google.com',
                     selected: false
+                },
+                {
+                    id: 3,
+                    title: 'title',
+                    subTitle: 'description',
+                    imgSrc: Tonia, 
+                    link: 'https://google.com',
+                    selected: false
                 }
             ]
         } 

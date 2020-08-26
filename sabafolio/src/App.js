@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import './App.css';
-
+import Tonia from './assests/images/toniasaba.JPG'
 import Footer from './components/footer.js'
 import HomePage from './pages/home.js'
 import ProjectPage from './pages/projects.js'
@@ -21,9 +21,10 @@ class App extends React.Component {
         { title: 'projects', path: '/projects'}
       ],
       home: {
-        title: 'Blah',
+        img: Tonia,
+        title: 'Hi',
         subTitle: 'okay blah',
-        text: 'blah blah blah'
+        text: 'I believe that learning how to learn new software is the key to the future. As a self taught audio engineer and producer who is passionate about creating with technology, learning how to code was the next step to innovation. As a creative in software development nothing excites me more than coming together with a team of individuals to share our unique skill sets to work through code in order to reach our end product. '
       },
       projects : {
         title: 'projects'
@@ -37,7 +38,7 @@ class App extends React.Component {
           <Container className="p-0" fluid={true}>
             
             <Navbar className="border-bottom" bg="transparent" expand="lg">
-              <Navbar.Brand>Tonia Saba</Navbar.Brand>
+              <Navbar.Brand>Welcome :)</Navbar.Brand>
               <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
               <Navbar.Collapse id="navbar-toggle">
                 <Nav className="ml-auto">
@@ -49,7 +50,7 @@ class App extends React.Component {
             </Navbar>
             <Route path="/" exact render={() => 
                 <HomePage 
-                    title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text}/>} />
+                    img={this.state.home.img} title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text}/>} />
             <Route path="/projects" render={() => 
                 <ProjectPage 
                     title={this.state.projects.title} subTitle={this.state.home.subTitle} text={this.state.home.text}/>} />
