@@ -12,7 +12,7 @@ function Footer() {
                     <a href="mailto:tonia.saba@gmail.com" target="_blank" rel="noopener noreferrer">Email Me</a>
                     </Col>
                     <Col className="p-0 d-flex justify-content-end" md={3}>
-                        Web Developer
+                    <a href="https://toniasaba.com/">Back to Tonia Saba.com</a>
                     </Col>
                 </Row>
             </Container>
