@@ -43,7 +43,7 @@ class App extends React.Component {
                 <Nav className="ml-auto">
                   <Link className="nav-link" to="/">Home</Link>
                   <Link className="nav-link" to="/projects">Projects</Link>
-                  <a className="nav-link" href="https://docs.google.com/document/d/1yrCAZunRJWwRmdi-le2rSYupCvo4D5cnQbg2cJnQyFQ/export?format=pdf">Resume</a>
+                  <a className="nav-link" href="https://docs.google.com/document/d/1yrCAZunRJWwRmdi-le2rSYupCvo4D5cnQbg2cJnQyFQ/export?format=pdf"> Download Resume</a>
                 </Nav>
               </Navbar.Collapse>
             </Navbar>
