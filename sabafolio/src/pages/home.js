@@ -1,10 +1,11 @@
 import React from 'react';
+import Jumbo from '../components/jumbo.js'
 
 
 function HomePage(props) {
     return(
-        <p>Home works!</p>
-    )
+        <Jumbo title={props.title} subTitle={props.subTitle} text={props.text} />
+    );
 }
 
 

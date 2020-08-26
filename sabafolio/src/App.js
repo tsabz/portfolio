@@ -22,7 +22,7 @@ class App extends React.Component {
       ],
       home: {
         title: 'Blah',
-        subTitle: 'blah blah',
+        subTitle: 'okay blah',
         text: 'blah blah blah'
       },
       projects : {
@@ -52,7 +52,7 @@ class App extends React.Component {
                     title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text}/>} />
             <Route path="/projects" render={() => 
                 <ProjectPage 
-                    title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text}/>} />
+                    title={this.state.projects.title} subTitle={this.state.home.subTitle} text={this.state.home.text}/>} />
             <Footer />
             </Container>
         
