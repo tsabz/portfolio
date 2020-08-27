@@ -53,10 +53,10 @@ code {
 } 
 
 .button:hover {
-  -webkit-animation:rainbow 1s infinite;
-  -ms-animation:rainbow 1s infinite;
-  -o-animation:rainbow 1s infinite;
-  animation:rainbow 1s infinite;
+  -webkit-animation:rainbow 20s;
+  -ms-animation:rainbow 5s;
+  -o-animation:rainbow 10s;
+  animation:limegreen-to-white 20s;
 }
 .nav-link{
   border-radius: 5px;
@@ -65,9 +65,9 @@ code {
 
 
 /*simple start*/
-@keyframes black-to-white {
+@keyframes limegreen-to-white {
   0% {
-    background: black;
+    background: limegreen;
   }
   100% {
     background: ghostwhite;
@@ -103,9 +103,9 @@ code {
   80% {
     background: darkviolet;
   }
-  90% {
+  /* 90% {
     background: black;
-  }
+  } */
   100% {
     background: ghostwhite;
   }
