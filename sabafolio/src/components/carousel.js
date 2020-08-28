@@ -17,33 +17,33 @@ class Carousel extends React.Component {
                 {
                     id: 0,
                     title: 'CommonPlace Book',
-                    subTitle: 'Stack used: JavaScript, Sass / SCSS, Materialize CSS, Node.js, Expressjs, bcrypt, express-session, Angularjs, MongoDB, MongoDB Atlas, Mongoose. This was a group project I worked on in my SEI program. This project replicates the the function of a commonplace book, allowing users to log in, put together a collection of quotes, view the commonplace books of others as well as their own.',
+                    subTitle: 'Tech Stack used: JavaScript, Sass / SCSS, Materialize CSS, Node.js, Expressjs, bcrypt, express-session, Angularjs, MongoDB, MongoDB Atlas, Mongoose. This was a group project I worked on in my SEI program. This project replicates the the function of a commonplace book, allowing users to log in, put together a collection of quotes, view the commonplace books of others as well as their own.',
                     imgSrc: Commonplace, 
                     link: 'https://commonplace333.herokuapp.com/',
                     selected: false
                 },
                 {
                     id: 1,
-                    title: 'title',
-                    subTitle: 'description',
+                    title: 'dbSounds',
+                    subTitle: 'Tech Stack used: Node js, Express js, PostgresSQL, Express-Session, Reactjs. An app where producers can upload sounds, test, and record them online and share with other producers in the database. This is currently an ongoing project, next steps will be to create a database where producers will add their own samples and then drag and drop them to button so that they can play little snippets and record them. For right now the app is at its beginning stages, anyone can use the touch screen, keyboard, and/or mouse to play the sounds on the midi.',
                     imgSrc: Tonia, 
-                    link: 'https://google.com',
+                    link: 'https://dbsounds.herokuapp.com/',
                     selected: false
                 },
                 {
                     id: 2,
-                    title: 'title',
-                    subTitle: 'description',
+                    title: 'ALGO BLOG',
+                    subTitle: 'Tech Stack used: Node js, HTML, CSS, JavaScript, EJS, Mongodb, Mongoose, Bootstrap.  Algo Blog is a platform where users are able write and share their thoughts and as well as music or videos on anything they choose. Users are also able to add likes to the blog',
                     imgSrc: Tonia, 
-                    link: 'https://google.com',
+                    link: 'https://algoplaylist.herokuapp.com/',
                     selected: false
                 },
                 {
                     id: 3,
-                    title: 'title',
-                    subTitle: 'description',
+                    title: 'My Gigz',
+                    subTitle: 'Tech Stack used: PHP, ReactJS, JavaScript, HTML5, CSS.  MyGigz is a single page web application that is used to organize the user\'s various gigs. A user is able to add information about each gig that you booked, such as a name, date, location, the amount you will be compensated, and any additional notes you may need to remember. Don\'t fret if you made a mistake! You can always edit or delete your gig if you need to!',
                     imgSrc: Tonia, 
-                    link: 'https://google.com',
+                    link: 'http://mygigz.herokuapp.com/',
                     selected: false
                 }
             ]
