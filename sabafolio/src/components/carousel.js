@@ -6,6 +6,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 // import Col from 'react-bootstrap/Col';
 import Tonia from '../assests/images/toniasaba.JPG'
+import Commonplace from '../assests/images/commonplace-signin-signup.gif'
 
 
 class Carousel extends React.Component {
@@ -15,10 +16,10 @@ class Carousel extends React.Component {
             items: [
                 {
                     id: 0,
-                    title: 'title',
-                    subTitle: 'description',
-                    imgSrc: Tonia, 
-                    link: 'https://google.com',
+                    title: 'CommonPlace Book',
+                    subTitle: 'Stack used: JavaScript, Sass / SCSS, Materialize CSS, Node.js, Expressjs, bcrypt, express-session, Angularjs, MongoDB, MongoDB Atlas, Mongoose. This was a group project I worked on in my SEI program. This project replicates the the function of a commonplace book, allowing users to log in, put together a collection of quotes, view the commonplace books of others as well as their own.',
+                    imgSrc: Commonplace, 
+                    link: 'https://commonplace333.herokuapp.com/',
                     selected: false
                 },
                 {

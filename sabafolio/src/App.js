@@ -22,8 +22,8 @@ class App extends React.Component {
       ],
       home: {
         img: Tonia,
-        title: 'Hi',
-        subTitle: 'okay blah',
+        title: 'Software Engineer',
+        subTitle: 'Node JS, Express JS, React, AngularJS, jQuery, PHP, MongoDB, PostgreSQL',
         text: 'I believe that learning how to learn new software is the key to the future. As a self taught audio engineer and producer who is passionate about creating with technology, learning how to code was the next step to innovation. As a creative in software development nothing excites me more than coming together with a team of individuals to share our unique skill sets to work through code in order to reach our end product. '
       },
       projects : {

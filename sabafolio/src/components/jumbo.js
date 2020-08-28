@@ -17,8 +17,8 @@ function Jumbo(props) {
                     <img className="g-card-homeimage" src={Tonia} alt={Tonia}/>
                     <Col md={8} sm={12}>
                         { props.title && <h1 className="display-3 front-weight-bolder">{props.title}</h1> }
-                        { props.subTitle && <h3 className="display-4 front-weight-light">{props.subTitle}</h3> }
-                        { props.text && <h3 className="lead front-weight-light">{props.text}</h3> }
+                        { props.subTitle && <h3 className="display-7 front-weight-light">{props.subTitle}</h3> }
+                        { props.text && <h6 className="lead front-weight-light">{props.text}</h6> }
                         <Button className="button" href="https://github.com/tsabz" target="_blank" rel="noopener noreferrer" variant="light" size="lg" block>Github</Button>
                     </Col>
                 </Row>

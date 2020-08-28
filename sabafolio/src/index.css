@@ -30,8 +30,8 @@ code {
 }
 
 .g-card-homeimage {
-  border-radius: 10px;
-  width: 600px;
+  border-radius: 3px;
+  width: 500px;
   height: 300px;
 }
 
@@ -56,7 +56,7 @@ code {
   -webkit-animation:rainbow 20s;
   -ms-animation:rainbow 5s;
   -o-animation:rainbow 10s;
-  animation:limegreen-to-white 20s;
+  animation:limegreen-to-white 5s;
 }
 .nav-link{
   border-radius: 5px;
