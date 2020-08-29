@@ -21,7 +21,7 @@ code {
   border-radius: 10px;
   width: 400px;
   height: 300px;
-  box-shadow: 0px 0px 3px 1px #ccc;
+  box-shadow: 1px 2px 20px 1px grey;
 }
 
 .g-card-info {
