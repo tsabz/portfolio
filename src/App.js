@@ -43,8 +43,8 @@ class App extends React.Component {
             <Navbar className="border-bottom" bg="transparent" expand="lg">
             <Typist className="TypistExample-message"
               cursor={{ hideWhenDone: true }}>
-            <Typist.Delay ms={1000} />
-              <span className="helloworld">print('Hello World')</span>
+            <Typist.Delay ms={900} />
+              <span className="helloworld">print("Hello World")</span>
               </Typist>
               
               <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
