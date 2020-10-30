@@ -12,6 +12,9 @@ code {
     monospace;
 }
 
+.helloworld {
+  color :grey;
+}
 
 .g-card {
   margin: 20px;
@@ -46,10 +49,11 @@ code {
 }
 
 .nav-link:hover{
-  -webkit-animation:rainbow 1s infinite;
-  -ms-animation:rainbow 1s infinite;
-  -o-animation:rainbow 1s infinite;
-  animation:rainbow 1s infinite;
+  -webkit-animation:rainbow 20s;
+  -ms-animation:rainbow 5s;
+  -o-animation:rainbow 10s;
+  /* background-color: gold; */
+  animation:gold-to-white 5s;
 } 
 
 .button:hover {
@@ -59,7 +63,7 @@ code {
   animation:limegreen-to-white 5s;
 }
 .nav-link{
-  border-radius: 5px;
+  border-radius: 0px;
 }
 
 

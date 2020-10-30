@@ -8,6 +8,8 @@ import Tonia from './assests/images/toniasaba.JPG'
 import Footer from './components/footer.js'
 import HomePage from './pages/home.js'
 import ProjectPage from './pages/projects.js'
+import Typist from 'react-typist';
+
 // import NavbarBrand from 'react-bootstrap/esm/NavbarBrand';
 
 
@@ -38,7 +40,9 @@ class App extends React.Component {
           <Container className="p-0" fluid={true}>
             
             <Navbar className="border-bottom" bg="transparent" expand="lg">
-              <Navbar.Brand>Welcome :)</Navbar.Brand>
+            <Typist ms={500}>
+              <span className="helloworld">print('Hello World')</span>
+              </Typist>
               <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
               <Navbar.Collapse id="navbar-toggle">
                 <Nav className="ml-auto">
