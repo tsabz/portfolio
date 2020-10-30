@@ -10,6 +10,7 @@ import HomePage from './pages/home.js'
 import ProjectPage from './pages/projects.js'
 import Typist from 'react-typist';
 
+
 // import NavbarBrand from 'react-bootstrap/esm/NavbarBrand';
 
 

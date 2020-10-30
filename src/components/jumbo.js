@@ -24,7 +24,7 @@ function Jumbo(props) {
                     <span></span>
                 </DropTarget>
                 <div className="justify-content-center py-5">
-                <img draggable="true" className="g-card-homeimage" src={Star_cluster} alt={Star_cluster}/>
+                <img className="g-card-homeimage" src={Star_cluster} alt={Star_cluster}/>
                 {/* {/* <img className="g-card-homeimage" src={Star_cluster} alt={Star_cluster}/> */}
                 <img className="g-card-homeimage" src={Star_cluster} alt={Star_cluster}/> 
                 
