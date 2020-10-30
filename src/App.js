@@ -40,15 +40,20 @@ class App extends React.Component {
           <Container className="p-0" fluid={true}>
             
             <Navbar className="border-bottom" bg="transparent" expand="lg">
-            <Typist ms={500}>
+            <Typist className="TypistExample-message"
+              cursor={{ hideWhenDone: true }}>
+            <Typist.Delay ms={1000} />
               <span className="helloworld">print('Hello World')</span>
               </Typist>
+              
               <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
               <Navbar.Collapse id="navbar-toggle">
                 <Nav className="ml-auto">
                   <Link className="nav-link" to="/">Home</Link>
+                  
                   <Link className="nav-link" to="/projects">Projects</Link>
                   <a className="nav-link" href="https://docs.google.com/document/d/1yrCAZunRJWwRmdi-le2rSYupCvo4D5cnQbg2cJnQyFQ/export?format=pdf"> Download Resume</a>
+                  
                 </Nav>
               </Navbar.Collapse>
             </Navbar>
