@@ -5,30 +5,16 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
 import Star_cluster from '../assests/images/star_cluster.jpg'
-import { DragDropContainer } from 'react-drag-drop-container';
-import { DropTarget } from 'react-drag-drop-container';
 
+import Stars from './stars.js'
 
 
 function Jumbo(props) {
     return (
         <Jumbotron className="bg-transparent jumbotron-fluid p-5">
             <Container fluid={true}>
+            <Stars/>
 
-            <DragDropContainer dragData={{label: 'Example', id: 123}} targetKey="foo">
-                <span><img className="g-card-homeimage" src={Star_cluster} alt={Star_cluster}/></span>
-                
-                </DragDropContainer>
-                <DropTarget
-                 targetKey="foo">
-                    <span></span>
-                </DropTarget>
-                <div className="justify-content-center py-5">
-                <img className="g-card-homeimage" src={Star_cluster} alt={Star_cluster}/>
-                {/* {/* <img className="g-card-homeimage" src={Star_cluster} alt={Star_cluster}/> */}
-                <img className="g-card-homeimage" src={Star_cluster} alt={Star_cluster}/> 
-                
-            </div>
             <br/>
     <Button className="button" href="https://github.com/tsabz" target="_blank" rel="noopener noreferrer" variant="light" size="lg" block>Github</Button>
             
